@@ -1,0 +1,54 @@
+# What do you understand By Database ?
+
+ - A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+  A database is usually controlled by a database management system (DBMS).
+
+# What is Normalization ? 
+
+- Normalization is the process to eliminate data redundancy and enhance data integrity in the table.Normalization also helps to organize the data in the database.
+  It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+
+
+# What is Difference between DBMS and RDBMS?
+
+
+- DBMS stands for Database Management System, and RDBMS is the acronym for the Relational Database Management system. In DBMS, the data is stored as a file, whereas in RDBMS, 
+  data is stored in the form of tables.To know what is the difference between RDBMS and DBMS, check out the table below.
+
+# What is MF Cod Rule of RDBMS Systems?
+
+- Codd's rule in DBMS also known as Codd's 12 rules/commandments is a set of thirteen rules (numbered 0 to 12) that define a database to be a 
+  correct Relational Database Management System (RDBMS). If a database follows Codd's 12 rules, it is called a True relational database management system.
+
+#  What do you understand By Data Redundancy? 
+
+ - Data redundancy refers to the practice of keeping data in two or more places within a database or data storage system. 
+   Data redundancy ensures an organization can provide continued operations or services in the event something happens to its data -- for example, 
+   in the case of data corruption or data loss.
+
+#  What is DDL Interpreter?
+
+ - DDL Interpreter DDL expands to Data Definition Language. DDL Interpreter as the name suggests interprets the DDL statements such as schema definition 
+   statements like create, delete, etc.The result of this interpretation is a set of a table that contains the meta-data which is stored in the data dictionary.
+
+#  What is DML Compiler in SQL? 
+
+- DML Compiler DML expands to Data Manipulation Language in DBMS. DML Compiler again as the name suggests compiles(or translates) the DML statements 
+  such as select, update and delete statements into low-level instructions which is nothing but the machine-readable object code to make it executable.
+
+#  What is SQL Key Constraints writing an Example of SQL Key Constraints 
+ 
+ -  SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. 
+    This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+   EXAMPLE-create a table Student1 with three columns Name, Age, and ID. While making the table, you must keep the Name and ID column as NOT NULL.
+
+#  What is save Point? How to create a save Point write a Query? 
+
+- A save point is a logical rollback point within a transaction.
+ When you set a save point, whenever an error occurs past a save point, you can undo the events you have done up to the save point using the rollback.
+
+#  What is trigger and how to create a Trigger in SQL?
+- A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. 
+  DML triggers run when a user tries to modify data through a data manipulation language (DML) event.
+  DML events are INSERT, UPDATE, or DELETE statements on a table or view.
+
